@@ -1,0 +1,35 @@
+.filter__list {
+  margin: 0 0 50px;
+
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.filter__button {
+  padding: 6px 22px;
+
+  border: none;
+  border-radius: 4px;
+
+  font-size: 16px;
+  font-weight: 500;
+
+  line-height: 26px;
+  letter-spacing: 0.48px;
+
+  background-color: var(--background-grey-color);
+  color: var(--text-black-color);
+
+  transition: color 250ms var(--cubic-bezier-easing),
+    background-color 250ms var(--cubic-bezier-easing);
+}
+
+.filter__button:focus,
+.filter__button:hover {
+  color: #fff;
+  background-color: var(--main-blue-color);
+
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}

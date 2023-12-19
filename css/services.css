@@ -1,0 +1,38 @@
+.services__list {
+  display: flex;
+  gap: 30px;
+}
+
+.services__item {
+  position: relative;
+}
+
+.services__item-image {
+  display: block;
+
+  width: 370px;
+  height: 294px;
+}
+
+.services__info {
+  position: absolute;
+
+  bottom: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 70px;
+
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.services__info-text {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}

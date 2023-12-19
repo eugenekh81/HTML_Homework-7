@@ -1,0 +1,41 @@
+.client-icons__list {
+  display: flex;
+  gap: 30px;
+}
+
+.client-icons__item {
+  width: 170px;
+  height: 92px;
+
+  border: 1px solid var(--svg-grey-color);
+  border-radius: 4px;
+
+  transition: border-color 250ms var(--cubic-bezier-easing);
+}
+
+.client-icons__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.client-icons__svg {
+  width: 106px;
+  height: 60px;
+
+  color: var(--svg-grey-color);
+
+  transition: color 250ms var(--cubic-bezier-easing);
+}
+
+.client-icons__item a:focus,
+.client-icons__item:hover {
+  border-color: var(--main-blue-color);
+}
+
+.client-icons__item a:focus .client-icons__svg,
+.client-icons__item:hover .client-icons__svg {
+  color: var(--main-blue-color);
+}

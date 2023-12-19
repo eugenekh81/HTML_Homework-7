@@ -1,0 +1,40 @@
+.contacts {
+  display: flex;
+  align-items: stretch;
+  gap: 40px;
+
+  height: 100%;
+}
+
+.contacts__link {
+  display: flex;
+  align-items: center;
+
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+
+  color: var(--text-grey-color);
+
+  transition: color 250ms var(--cubic-bezier-easing);
+}
+
+.contacts__link--footer {
+  display: flex;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 20px;
+  letter-spacing: 0.42px;
+
+  width: fit-content;
+}
+
+.contacts__link:focus,
+.contacts__link-footer:focus,
+.contacts__link:hover,
+.contacts__link-footer:hover {
+  color: var(--main-blue-color);
+}
+
+.contacts__link:hover::before {
+  background-color: var(--main-blue-color);
+}
