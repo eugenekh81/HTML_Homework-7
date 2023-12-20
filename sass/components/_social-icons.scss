@@ -5,11 +5,10 @@
   gap: 20px;
 
   &__title {
-    color: #fff;
-    font-size: 14px;
-    font-weight: 700;
     letter-spacing: 0.42px;
     text-transform: uppercase;
+
+    @include font-style(#fff, 14px, 700);
   }
 
   &__list {
@@ -36,21 +35,21 @@
     border-radius: 50%;
     background-color: #fff;
 
-    transition: background-color 250ms var(--cubic-bezier-easing);
+    transition: background-color 250ms $cubic-bezier-easing;
   }
 
   &__link:focus,
   &__link:hover {
-    background-color: var(--main-blue-color);
+    background-color: $main-blue-color;
   }
 
   &__svg {
     width: 20px;
     height: 20px;
 
-    transition: color 250ms var(--cubic-bezier-easing);
+    transition: color 250ms $cubic-bezier-easing;
 
-    color: var(--svg-grey-color);
+    color: $svg-grey-color;
   }
 
   &__link:focus &__svg,

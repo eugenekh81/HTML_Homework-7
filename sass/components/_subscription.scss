@@ -25,11 +25,11 @@
     height: 50px;
 
     color: #fff;
-    transition: border 250ms var(--cubic-bezier-easing);
+    transition: border 250ms $cubic-bezier-easing;
   }
 
   &__form_input:hover {
-    border: 1px solid var(--main-blue-color);
+    border: 1px solid $main-blue-color;
   }
 
   &__form_label {
@@ -60,9 +60,9 @@
     width: 200px;
     height: 50px;
 
-    border: 1px solid var(--main-blue-color);
+    border: 1px solid $main-blue-color;
     border-radius: 4px;
-    background: var(--main-blue-color);
+    background: $main-blue-color;
     color: #fff;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 

@@ -1,7 +1,7 @@
 .footer {
   padding: 60px 0;
 
-  background-color: var(--background-black-color);
+  background-color: $background-black-color;
 }
 
 .footer__content {
@@ -18,7 +18,7 @@
 }
 
 .address {
-  color: #fff;
+  @include font-style(#fff, 14px);
 
   font-size: 14px;
   line-height: 20px;

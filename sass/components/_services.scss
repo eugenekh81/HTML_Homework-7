@@ -31,10 +31,9 @@
   }
 
   &__info-text {
-    color: #fff;
-    font-size: 14px;
-    font-weight: 700;
     letter-spacing: 0.42px;
     text-transform: uppercase;
+
+    @include font-style(#fff, 14px, 700);
   }
 }

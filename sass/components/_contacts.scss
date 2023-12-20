@@ -10,13 +10,12 @@
   display: flex;
   align-items: center;
 
-  font-size: 14px;
-  font-weight: 500;
+  @include font-style($text-grey-color, 14px, 500);
+
   letter-spacing: 0.28px;
 
-  color: var(--text-grey-color);
 
-  transition: color 250ms var(--cubic-bezier-easing);
+  transition: color 250ms $cubic-bezier-easing;
 }
 
 .contacts__link--footer {
@@ -32,9 +31,9 @@
 .contacts__link-footer:focus,
 .contacts__link:hover,
 .contacts__link-footer:hover {
-  color: var(--main-blue-color);
+  color: $main-blue-color;
 }
 
 .contacts__link:hover::before {
-  background-color: var(--main-blue-color);
+  background-color: $main-blue-color;
 }

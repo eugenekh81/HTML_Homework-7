@@ -1,9 +1,6 @@
 .title {
-  font-size: 36px;
-  font-weight: 700;
-
   text-align: center;
   letter-spacing: 1.08px;
 
-  color: var(--text-black-color);
+  @include font-style($text-black-color, 36px, 700);
 }

@@ -10,7 +10,7 @@
 
   opacity: 1;
 
-  transition: opacity 250ms var(--cubic-bezier-easing);
+  transition: opacity 250ms $cubic-bezier-easing;
 }
 
 .backdrop--hidden {
@@ -19,6 +19,6 @@
 }
 
 .backdrop--hidden .modal {
-  transition: transform 250ms var(--cubic-bezier-easing);
+  transition: transform 250ms $cubic-bezier-easing;
   transform: translate(-50%, -50%) scale(0);
 }

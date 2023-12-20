@@ -6,7 +6,7 @@
   }
 
   &__item {
-    transition: box-shadow 250ms var(--cubic-bezier-easing);
+    transition: box-shadow 250ms $cubic-bezier-easing;
   }
 
   &__image {
@@ -24,22 +24,17 @@
   }
 
   &__content-name {
-    font-size: 18px;
-    font-weight: 700;
-
     line-height: 36px;
     letter-spacing: 1.08px;
 
-    color: var(--text-black-color);
+    @include font-style($text-black-color, 18px, 700);
   }
 
   &__content-text {
-    font-size: 16px;
-
     line-height: 30px;
     letter-spacing: 0.48px;
 
-    color: var(--text-grey-color);
+    @include font-style($text-grey-color, 16px);
   }
 
   &__item:hover {
