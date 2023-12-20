@@ -9,16 +9,16 @@
   letter-spacing: 0.78px;
 
   width: fit-content;
-}
 
-.logo__web {
-  color: var(--main-blue-color);
-}
+  &__web {
+    color: var(--main-blue-color);
+  }
 
-.logo__studio--black {
-  color: #000;
-}
+  &__studio--black {
+    color: #000;
+  }
 
-.logo__studio--white {
-  color: #fff;
+  &__studio--white {
+    color: #fff;
+  }
 }
