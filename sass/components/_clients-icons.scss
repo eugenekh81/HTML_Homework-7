@@ -20,8 +20,7 @@
 }
 
 .client-icons__svg {
-  width: 106px;
-  height: 60px;
+  @include clients-icons-size;
 
   color: $svg-grey-color;
 

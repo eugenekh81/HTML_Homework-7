@@ -19,3 +19,18 @@
   border: $border;
   border-radius: $b-radius;
 }
+
+@mixin feature-icons-size($width: 70px, $height: 70px) {
+  width: $width;
+  height: $height;
+}
+
+@mixin clients-icons-size($width: 106px, $height: 60px) {
+  width: $width;
+  height: $height;
+}
+
+@mixin social-icons-size($width: 20px, $height: 20px) {
+  width: $width;
+  height: $height;
+}

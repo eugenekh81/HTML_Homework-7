@@ -12,8 +12,7 @@
 }
 
 .features__icon {
-  width: 70px;
-  height: 70px;
+  @include feature-icons-size;
 }
 
 .features__icon-background {
