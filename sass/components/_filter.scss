@@ -14,8 +14,7 @@
 
   @include font-style($text-black-color, 16px, 500);
 
-  line-height: 26px;
-  letter-spacing: 0.48px;
+  @include font-settings($l-height: 26px, $l-spacing: 0.48px);
 
   background-color: $background-grey-color;
 

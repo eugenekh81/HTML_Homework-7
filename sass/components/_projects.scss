@@ -31,10 +31,8 @@
   }
 
   &__content-text {
-    line-height: 30px;
-    letter-spacing: 0.48px;
-
     @include font-style($text-grey-color, 16px);
+    @include font-settings($l-height: 30px, $l-spacing: 0.48px);
   }
 
   &__item:hover {

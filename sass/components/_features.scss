@@ -37,8 +37,7 @@
 }
 
 .features__item-text {
-  line-height: 24px;
-  letter-spacing: 0.42px;
+  @include font-settings($l-height: 24px, $l-spacing: 0.42px);
 
   @include font-style($text-grey-color, 14px);
 }

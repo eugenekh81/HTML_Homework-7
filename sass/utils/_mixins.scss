@@ -10,3 +10,7 @@
   justify-content: $justify;
 }
 
+@mixin font-settings($l-height, $l-spacing) {
+  line-height: $l-height;
+  letter-spacing: $l-spacing;
+}

@@ -652,11 +652,11 @@ ul {
   font-weight: 700;
 }
 .projects__content-text {
-  line-height: 30px;
-  letter-spacing: 0.48px;
   color: #757575;
   font-size: 16px;
   font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.48px;
 }
 .projects__item:hover {
   -webkit-box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
@@ -684,11 +684,11 @@ ul {
 }
 .overlay-cards__text {
   font-style: normal;
-  line-height: 28px;
-  letter-spacing: 0.54px;
   color: #fff;
   font-size: 18px;
   font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.54px;
 }
 .overlay-cards__item:hover .overlay-cards__background {
   -webkit-transform: translateY(0);
@@ -884,12 +884,12 @@ ul {
   font-weight: 400;
 }
 .modal__checkbox_link {
-  line-height: 24px;
-  letter-spacing: 0.42px;
   text-decoration-line: underline;
   color: #2196f3;
   font-size: 14px;
   font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
   -webkit-box-ordinal-group: 0;
       -ms-flex-order: -1;
           order: -1;
@@ -931,11 +931,11 @@ ul {
   border-radius: 4px;
   border: none;
   background-color: #2196f3;
-  line-height: 30px;
-  letter-spacing: 0.96px;
   color: #fff;
   font-size: 16px;
   font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.96px;
   -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);

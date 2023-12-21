@@ -14,15 +14,14 @@
 
   letter-spacing: 0.28px;
 
-
   transition: color 250ms $cubic-bezier-easing;
 }
 
 .contacts__link--footer {
   display: flex;
   color: rgba(255, 255, 255, 0.6);
-  line-height: 20px;
-  letter-spacing: 0.42px;
+
+  @include font-settings($l-height: 20px, $l-spacing: 0.42px);
 
   width: fit-content;
 }

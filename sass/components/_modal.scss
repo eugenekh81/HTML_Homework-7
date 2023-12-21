@@ -137,18 +137,15 @@
     flex-direction: row-reverse;
     gap: 7px;
 
-    line-height: 24px;
-    letter-spacing: 0.42px;
-
+    @include font-settings($l-height: 24px, $l-spacing: 0.42px);
     @include font-style($text-grey-color, 14px);
   }
 
   &__checkbox_link {
-    line-height: 24px;
-    letter-spacing: 0.42px;
     text-decoration-line: underline;
 
     @include font-style($main-blue-color, 14px);
+    @include font-settings($l-height: 24px, $l-spacing: 0.42px);
 
     order: -1;
   }
@@ -187,10 +184,8 @@
     border: none;
     background-color: $main-blue-color;
 
-    line-height: 30px;
-    letter-spacing: 0.96px;
-
     @include font-style(#fff, 16px, 700);
+    @include font-settings($l-height: 30px, $l-spacing: 0.96px);
 
     transition: box-shadow 250ms $cubic-bezier-easing;
   }

@@ -21,10 +21,8 @@
 
   &__text {
     font-style: normal;
-    line-height: 28px;
-    letter-spacing: 0.54px;
-
     @include font-style(#fff, 18px);
+    @include font-settings($l-height: 28px, $l-spacing: 0.54px);
   }
 
   &__item:hover &__background {

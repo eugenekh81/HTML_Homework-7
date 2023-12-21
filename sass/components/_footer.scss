@@ -19,9 +19,7 @@
 
 .address {
   @include font-style(#fff, 14px);
-
-  line-height: 20px;
-  letter-spacing: 0.42px;
+  @include font-settings($l-height: 20px, $l-spacing: 0.42px);
 }
 
 .footer__contacts {
