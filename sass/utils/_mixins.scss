@@ -14,3 +14,8 @@
   line-height: $l-height;
   letter-spacing: $l-spacing;
 }
+
+@mixin border-settings($border, $b-radius) {
+  border: $border;
+  border-radius: $b-radius;
+}

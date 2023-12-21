@@ -40,14 +40,11 @@
     padding: 10px 24px;
 
     @include font-style(#fff, 16px, 700);
+    @include font-settings(30px, 0.96px);
 
-    line-height: 30px;
-    letter-spacing: 0.96px;
+    @include border-settings(2px solid $main-blue-color, 4px);
 
     background-color: $main-blue-color;
-
-    border: 2px solid $main-blue-color;
-    border-radius: 4px;
 
     transition: border 250ms $cubic-bezier-easing,
       background-color 250ms $cubic-bezier-easing,

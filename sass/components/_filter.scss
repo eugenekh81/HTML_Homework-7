@@ -9,11 +9,9 @@
 .filter__button {
   padding: 6px 22px;
 
-  border: none;
-  border-radius: 4px;
-
+  @include border-settings(none, 4px);
+  
   @include font-style($text-black-color, 16px, 500);
-
   @include font-settings($l-height: 26px, $l-spacing: 0.48px);
 
   background-color: $background-grey-color;

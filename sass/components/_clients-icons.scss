@@ -7,8 +7,7 @@
   width: 170px;
   height: 92px;
 
-  border: 1px solid $svg-grey-color;
-  border-radius: 4px;
+  @include border-settings(1px solid $svg-grey-color, 4px);
 
   transition: border-color 250ms $cubic-bezier-easing;
 }

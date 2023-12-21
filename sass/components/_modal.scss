@@ -33,13 +33,12 @@
     padding: 0;
 
     @include flexbox;
+    @include border-settings(1px solid rgba(0, 0, 0, 0.1), 50%);
 
     height: 30px;
     width: 30px;
 
     background: none;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
     overflow: hidden;
   }
 
@@ -90,8 +89,7 @@
 
   &__form_input,
   &__form_comment {
-    border-radius: 4px;
-    border: 1px solid rgba(33, 33, 33, 0.2);
+    @include border-settings(1px solid rgba(33, 33, 33, 0.2), 4px);
 
     transition: border 250ms $cubic-bezier-easing;
   }
@@ -152,9 +150,7 @@
 
   &__checkbox_icon {
     @include flexbox;
-
-    border: 2px solid #000;
-    border-radius: 4px;
+    @include border-settings(1px solid #000, 4px);
 
     width: 16px;
     height: 15px;
@@ -180,10 +176,9 @@
     width: 200px;
     height: 50px;
 
-    border-radius: 4px;
-    border: none;
     background-color: $main-blue-color;
-
+    
+    @include border-settings(none, 4px);
     @include font-style(#fff, 16px, 700);
     @include font-settings($l-height: 30px, $l-spacing: 0.96px);
 
