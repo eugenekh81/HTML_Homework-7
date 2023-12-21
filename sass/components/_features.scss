@@ -19,21 +19,17 @@
 .features__icon-background {
   margin: 0 0 30px;
 
+  @include flexbox;
+
   height: 120px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
   border-radius: 4px;
-
   background-color: $background-grey-color;
 }
 
 .features__item-title {
   margin: 0 0 10px;
 
-  font-size: 14px;
-  font-weight: 700;
   letter-spacing: 0.42px;
   text-transform: uppercase;
 
@@ -41,7 +37,6 @@
 }
 
 .features__item-text {
-
   line-height: 24px;
   letter-spacing: 0.42px;
 

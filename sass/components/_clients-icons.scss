@@ -14,9 +14,8 @@
 }
 
 .client-icons__link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flexbox;
+
   height: 100%;
   width: 100%;
 }

@@ -18,17 +18,15 @@
   }
 
   &__item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flexbox;
+
     width: 44px;
     height: 44px;
   }
 
   &__link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flexbox;
+    
     width: 100%;
     height: 100%;
 
