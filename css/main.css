@@ -964,7 +964,7 @@ template {
 }
 
 .button__categories {
-  font-family: font-inherit;
+  font-family: inherit;
   padding: 0 22px;
   height: 38px;
   border: none;
@@ -972,6 +972,8 @@ template {
   background: rgb(245, 244, 250);
   -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
   color: #212121;
   font-weight: 500;
   line-height: 26px;
@@ -979,10 +981,10 @@ template {
   letter-spacing: 0.48px;
   text-align: center;
 }
-.button__categories::hover {
+.button__categories:hover {
   background-color: #2196f3;
-  -webkit-transition-duration: 0.4s;
-          transition-duration: 0.4s;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
   cursor: pointer;
   color: #ffffff;
 }
