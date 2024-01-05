@@ -1,0 +1,24 @@
+.logo {
+  display: flex;
+  align-items: center;
+  width: 145px;
+  font-family: $--font-Raleway;
+  text-decoration: none;
+  @include text-option(unset, 700, 30.52px, 26px, unset, unset);
+  // color: unset;
+  // font-weight: 700;
+  // line-height: 30.52px;
+  // font-size: 26px;
+}
+
+.logo__web {
+  color: $--color-light-blue;
+}
+
+.logo__studio {
+  color: $--color-dark-black;
+}
+
+.logo__studio--footer {
+  color: $--color-white;
+}

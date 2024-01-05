@@ -1,0 +1,94 @@
+.project__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  @include retreat;
+  // margin: 0;
+  // padding: 0;
+  list-style: none;
+  &-item {
+    box-sizing: border-box;
+    width: 370px;
+    height: 404px;
+    border: 1px solid #eeeeee;
+    transition: box-shadow 250ms ease;
+    &:hover .project__text {
+      transform: translateY(0%);
+    }
+    &:hover {
+      box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+        0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+    }
+  }
+}
+
+// .project__list-item {
+//   box-sizing: border-box;
+//   width: 370px;
+//   height: 404px;
+//   border: 1px solid #eeeeee;
+//   transition: box-shadow 250ms ease;
+// }
+
+// .project__list-item:hover {
+//   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+//     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+// }
+
+.project__container {
+  position: relative;
+  overflow: hidden;
+}
+
+.project__text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 63px 24px;
+  @include text-option($--color-white, 400, 28px, 18px, 0.54px, unset);
+  // color: #ffffff;
+  // font-weight: 400;
+  // font-size: 18px;
+  // line-height: 28px;
+  // letter-spacing: 0.54px;
+  background-color: $--color-light-blue;
+  transform: translateY(100%);
+  transition: transform 250ms ease-out;
+}
+// .project__list-item:hover .project__text {
+//   transform: translateY(0%);
+// }
+
+.contents__image {
+  display: flex;
+  width: 370px;
+  height: 294px;
+  flex-shrink: 0;
+}
+
+.project__content-container {
+  padding: 20px 24px;
+}
+
+.project__title {
+  margin: 0 0 4px;
+  padding: 0;
+  @include text-option($--color-black, 700, 36px, 18px, 1.08px, unset);
+  // color: #212121;
+  // font-weight: 700;
+  // line-height: 36px;
+  // font-size: 18px;
+  // letter-spacing: 1.08px;
+}
+
+.project__category {
+  @include retreat;
+  @include text-option($--color-gray, 400, 30px, 16px, 0.48px, unset);
+  // margin: 0;
+  // padding: 0;
+  // color: #757575;
+  // font-weight: 400;
+  // line-height: 30px;
+  // font-size: 16px;
+  // letter-spacing: 0.48px;
+}

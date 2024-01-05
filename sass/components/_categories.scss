@@ -1,0 +1,41 @@
+.categories {
+  padding: 94px 0 94px;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 0 0 50px;
+}
+
+.button__categories {
+  font-family: font-inherit;
+  padding: 0 22px;
+  height: 38px;
+  border: none;
+  border-radius: 4px;
+  background: rgba(245, 244, 250, 1);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  @include text-option($--color-black, 500, 26px, 16px, 0.48px, center);
+  // color: #212121;
+  // font-weight: 500;
+  // line-height: 26px;
+  // font-size: 16px;
+  // text-align: center;
+  // letter-spacing: 0.48px;
+  &::hover {
+    background-color: $--color-light-blue;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: $--color-white;
+  }
+}
+
+// .button__categories:hover {
+//   background-color: $--color-light-blue;
+//   transition-duration: 0.4s;
+//   cursor: pointer;
+//   color:$--color-white;
+// }
