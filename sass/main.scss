@@ -1,11 +1,12 @@
 @import './utils/variables';
+@import'./components/mixin';
 @import './utils/reset';
 @import './utils/normalize';
 @import './components/page';
 @import './components/container';
 @import './components/header';
 @import './components/navigation';
-@import './components/header_contacts';
+@import './components/contacts';
 @import './components/hero';
 @import './components/backdrop';
 @import './components/categories';

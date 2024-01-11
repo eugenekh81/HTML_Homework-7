@@ -1,71 +1,38 @@
 .features {
   padding: 94px 0 94px;
-}
 
-.features__list {
-  display: flex;
-  gap: 30px;
-  margin: 0;
-  padding: 0;
-  &-item {
-    width: 270px;
+  &__list {
     display: flex;
-    flex-direction: column;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    &-item {
+      width: 270px;
+      display: flex;
+      flex-direction: column;
+    }
+    &-image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 270px;
+      height: 120px;
+      flex-shrink: 0;
+      border-radius: 4px;
+      background-color: #f5f4fa;
+      margin: 0 0 30px;
+    }
   }
-  &-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 270px;
-    height: 120px;
-    flex-shrink: 0;
-    border-radius: 4px;
-    background-color: #f5f4fa;
-    margin: 0 0 30px;
+  &__item-image {
+    width: 70px;
+    height: 70px;
   }
-}
-
-// .features__list-item {
-//   width: 270px;
-//   display: flex;
-//   flex-direction: column;
-// }
-
-// .features__list-image {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   width: 270px;
-//   height: 120px;
-//   flex-shrink: 0;
-//   border-radius: 4px;
-//   background-color: #f5f4fa;
-//   margin: 0 0 30px;
-// }
-
-.list__item-image {
-  width: 70px;
-  height: 70px;
-}
-
-.feature__title {
-  @include text-option($--color-black, 700, 16px, 14px, 0.42px, unset);
-  // font-size: 14px;
-  // font-weight: 700;
-  // line-height: 16px;
-  // letter-spacing: 0.42px;
-  // color: #212121;
-  margin: 0 0 10px;
-}
-
-.feature__text {
-  margin: 0px;
-  @include text-option($--color-gray, 400, 24px, 14px, 0.42px, justify);
-  // color: $--color-gray;
-  // line-height: 24px;
-  // letter-spacing: 0.42px;
-  // letter-spacing: 0.42px;
-  // font-size: 14px;
-  // font-weight: 400;
-  // text-align: justify;
+  &__title {
+    @include text-option($color-black, 700, 16px, 14px, 0.42px, unset);
+    margin: 0 0 10px;
+  }
+  &__text {
+    margin: 0px;
+    @include text-option($color-gray, 400, 24px, 14px, 0.42px, justify);
+  }
 }

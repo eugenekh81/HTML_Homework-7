@@ -5,7 +5,7 @@
       rgba(47, 48, 58, 0.375) 0%,
       rgba(47, 48, 58, 0.375) 100%
     ),
-    url('../../images/hero/hero.jpg'), $--color-dark-blue;
+    url('../../images/hero/hero.jpg'), $color-dark-blue;
   background-size: cover, cover, 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -26,13 +26,7 @@
   box-sizing: border-box;
   margin: 0;
   width: 696px;
-  @include text-option($--color-white, 900, 60px, 44px, 2.64px, unset);
-  //  color: #ffffff;
-  // font-weight: 900;
-  // line-height: 60px;
-  // font-size: 44px;
-  // letter-spacing: 2.64px;
-  // text-align: center;
+  @include text-option($color-white, 900, 60px, 44px, 2.64px, unset);
 }
 
 .hero__button {
@@ -41,24 +35,13 @@
   border: none;
   border-radius: 3px;
   padding: 10px 32px;
-  @include text-option($--color-white, 700, unset, 16px, unset, center);
-  // color: #ffffff;
-  // font-weight: 700;
-  // font-size: 16px;
-  // text-align: center;
-  background-color: $--color-light-blue;
+  @include text-option($color-white, 700, unset, 16px, unset, center);
+  background-color: $color-light-blue;
   transition-duration: 0.3s;
   &:hover {
-    background-color: $--background-color-button-hero;
-    color: $--color-button-hero;
+    background-color: $background-color-button-hero;
+    color: $color-button-hero;
     transition-duration: 0.4s;
     cursor: pointer;
   }
 }
-
-// .hero__button:hover {
-//   background-color: $--background-color-button-hero;
-//   color: $--color-button-hero;
-//   transition-duration: 0.4s;
-//   cursor: pointer;
-// }

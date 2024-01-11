@@ -2,18 +2,16 @@ $font-family: 'Roboto', 'sans-serif';
 
 .page {
   font-family: $font-family;
-}
-
-.page__body {
-  margin: 0;
-}
-
-.page__body--no-scroll {
-  overflow: hidden;
+  &__body {
+    margin: 0;
+  }
+  &__body--no-scroll {
+    overflow: hidden;
+  }
 }
 
 .section__title {
-  @include text-option($font-size:36px, $letter-spacing:1.08px,);
+  @include text-option($font-size: 36px, $letter-spacing: 1.08px);
   // color: #212121;
   // font-weight: 500;
   // line-height: normal;
