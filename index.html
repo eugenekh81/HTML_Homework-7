@@ -14,14 +14,14 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body class="page__body">
-    <header class="header">
+    <header class="header" hidden>
       <div class="container">
         <div class="header__content">
           <a href="https://dumanskyy.github.io/HTML_Homework-6" class="logo">
             <span class="logo__web">Web</span>
             <span class="logo__studio">Studio</span>
           </a>
-          <nav class="header__nav">
+          <nav class="header__nav nav">
             <ul class="nav__list">
               <li class="nav__item ">
                 <a class="nav__link is-active" href="./index.html">Студія</a>
@@ -52,7 +52,7 @@
       </div>
     </header>
     <main>
-      <section class="hero">
+      <section class="hero" hidden>
         <div class="container">
           <div class="hero__content">
             <h1 class="hero__title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
@@ -60,7 +60,7 @@
           </div>
         </div>
       </section>
-      <section class="features">
+      <section class="features section" hidden>
         <div class="container">
           <ul class="features__list">
             <li class="features__list-item">
@@ -113,9 +113,11 @@
           </ul>
         </div>
       </section>
-      <section class="services">
+      <section class="services section section--no-pd-top">
         <div class="container">
-          <h2 class="services__title section__title">Чим ми займаємося</h2>
+          <h2 class="services__title section__title">
+            Чим ми займаємося
+          </h2>
           <ul class="services__list">
             <li class="services__list-item">
               <div class="services__list-container">
@@ -124,30 +126,30 @@
               </div>
             </li>
             <li class="services__list-item">
-                  <div    class="services__list-container">
-                       <img class="services__list-image" 
-                         src="./images/major_imges/img_2.jpg"
-                         alt="адаптація під екран телефону"
-                       />
-                       <p class="services__list-text">Мобільні додатки</p>
-                   </div> 
+              <div class="services__list-container">
+                    <img class="services__list-image" 
+                      src="./images/major_imges/img_2.jpg"
+                      alt="адаптація під екран телефону"
+                    />
+                    <p class="services__list-text">Мобільні додатки</p>
+                </div> 
             </li>
             <li class="services__list-item">
-                  <div    class="services__list-container">
-                    <img class="services__list-image" src="./images/major_imges/img_3.jpg" alt="палітра кольорів" />
-                       <p class="services__list-text">Дизайнерські рішення</p>
-                   </div>
+              <div class="services__list-container">
+                <img class="services__list-image" src="./images/major_imges/img_3.jpg" alt="палітра кольорів" />
+                    <p class="services__list-text">Дизайнерські рішення</p>
+                </div>
             </li>
           </ul>
         </div>
       </section>
-      <section class="team">
+      <section class="team section">
         <div class="container">
           <h2 class="team__title section__title">Наша команда</h2>
           <ul class="team__list">
             <li class="team__person ">
               <img
-                class="team__person--photo"
+                class="team__person-photo"
                 src="./images/major_imges/img_4.jpg"
                 alt="Product Designer"
               />
@@ -190,7 +192,7 @@
             </li>
             <li class="team__person">
               <img
-                class="team__person--photo"
+                class="team__person-photo"
                 src="./images/major_imges/img_5.jpg"
                 alt="Frontend Developer"
               />
@@ -233,7 +235,7 @@
             </li>
             <li class="team__person">
               <img
-                class="team__person--photo"
+                class="team__person-photo"
                 src="./images/major_imges/img_6.jpg"
                 alt="Marketing"
               />
@@ -276,7 +278,7 @@
             </li>
             <li class="team__person">
               <img
-                class="team__person--photo"
+                class="team__person-photo"
                 src="./images/major_imges/img_7.jpg"
                 alt="UI Designer"
               />
@@ -320,7 +322,7 @@
           </ul>
         </div>
       </section>
-      <section class="clients">
+      <section class="clients section">
         <div class="container">
           <h2 class="clients__title section__title">Постійні клієнти</h2>
           <ul class="clients__list">
@@ -499,6 +501,7 @@
             function logBackdropClick() {
               console.log("Это клик в бекдроп");
             }
-          </script>
+    </script>
   </body>
 </html>
+

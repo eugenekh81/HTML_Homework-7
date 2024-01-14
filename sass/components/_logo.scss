@@ -5,17 +5,25 @@
   font-family: $font-Raleway;
   text-decoration: none;
   @include text-option(unset, 700, 30.52px, 26px, unset, unset);
-
+  &__web {
+    color: $color-light-blue;
+  }
+  &__studio {
+    color: $color-dark-black;
+  }
+  &__studio--footer {
+    color: $color-white;
+  }
 }
 
-.logo__web {
-  color: $color-light-blue;
-}
+// .logo__web {
+//   color: $color-light-blue;
+// }
 
-.logo__studio {
-  color: $color-dark-black;
-}
+// .logo__studio {
+//   color: $color-dark-black;
+// }
 
-.logo__studio--footer {
-  color: $color-white;
-}
+// .logo__studio--footer {
+//   color: $color-white;
+// }

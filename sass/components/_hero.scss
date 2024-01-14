@@ -10,38 +10,38 @@
   background-repeat: no-repeat;
   background-position: center;
   max-width: 1600px;
-}
 
-.hero__content {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-  height: 600px;
-}
+  &__content {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 600px;
+  }
 
-.hero__title {
-  box-sizing: border-box;
-  margin: 0;
-  width: 696px;
-  @include text-option($color-white, 900, 60px, 44px, 2.64px, unset);
-}
+  &__title {
+    box-sizing: border-box;
+    margin: 0;
+    width: 696px;
+    @include text-option($color-white, 900, 60px, 44px, 2.64px, center);
+  }
 
-.hero__button {
-  width: 216px;
-  height: 50px;
-  border: none;
-  border-radius: 3px;
-  padding: 10px 32px;
-  @include text-option($color-white, 700, unset, 16px, unset, center);
-  background-color: $color-light-blue;
-  transition-duration: 0.3s;
-  &:hover {
-    background-color: $background-color-button-hero;
-    color: $color-button-hero;
-    transition-duration: 0.4s;
-    cursor: pointer;
+  &__button {
+    width: 216px;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 32px;
+    @include text-option($color-white, 700, unset, 16px, unset, center);
+    background-color: $color-light-blue;
+    transition-duration: 0.3s;
+    &:hover {
+      background-color: $background-color-button-hero;
+      color: $color-button-hero;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
   }
 }

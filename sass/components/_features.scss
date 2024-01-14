@@ -1,17 +1,13 @@
 .features {
-  padding: 94px 0 94px;
-
   &__list {
     display: flex;
     gap: 30px;
     margin: 0;
     padding: 0;
-    &-item {
-      width: 270px;
-      display: flex;
-      flex-direction: column;
-    }
-    &-image {
+
+   
+  }
+  &__list-image {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -22,6 +18,10 @@
       background-color: #f5f4fa;
       margin: 0 0 30px;
     }
+  &__list-item {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
   }
   &__item-image {
     width: 70px;
