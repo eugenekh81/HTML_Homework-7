@@ -1,11 +1,9 @@
-$font-family: 'Roboto', 'sans-serif';
-
 .page {
   font-family: $font-family;
   &__body {
     margin: 0;
-  }
-  &__body--no-scroll {
-    overflow: hidden;
+    &--no-scroll {
+      overflow: hidden;
+    }
   }
 }

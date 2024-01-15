@@ -10,7 +10,6 @@
   background-repeat: no-repeat;
   background-position: center;
   max-width: 1600px;
-
   &__content {
     box-sizing: border-box;
     display: flex;
@@ -20,14 +19,12 @@
     gap: 30px;
     height: 600px;
   }
-
   &__title {
     box-sizing: border-box;
     margin: 0;
     width: 696px;
     @include text-option($color-white, 900, 60px, 44px, 2.64px, center);
   }
-
   &__button {
     width: 216px;
     height: 50px;
