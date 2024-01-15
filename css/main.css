@@ -659,8 +659,8 @@ template {
 
 .hero {
   margin: 0 auto;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.375)), to(rgba(47, 48, 58, 0.375))), url("../../images/hero/hero.jpg"), #2f303a;
-  background: linear-gradient(90deg, rgba(47, 48, 58, 0.375) 0%, rgba(47, 48, 58, 0.375) 100%), url("../../images/hero/hero.jpg"), #2f303a;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.375)), to(rgba(47, 48, 58, 0.375))), url("../images/hero/hero.jpg"), #2f303a;
+  background: linear-gradient(90deg, rgba(47, 48, 58, 0.375) 0%, rgba(47, 48, 58, 0.375) 100%), url("../images/hero/hero.jpg"), #2f303a;
   background-size: cover, cover, 100%;
   background-repeat: no-repeat;
   background-position: center;
